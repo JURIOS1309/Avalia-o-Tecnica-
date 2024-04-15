@@ -1,0 +1,2 @@
+# -MANYMINDS
+Avaliação Tecnica QA
