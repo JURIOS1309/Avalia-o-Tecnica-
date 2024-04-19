@@ -84,6 +84,7 @@ WHERE
     o.Preferência = 1
 ```
 
+```sql
 SELECT
     p.Código_de_barras,
     pi.Descrição,
@@ -99,7 +100,7 @@ INNER JOIN
     Origem o ON pi.IDOrigem = o.ID
 WHERE
     o.Preferência = 1
-
+```
 
 Detalhamento da consulta:
 Foi selecionado os campos `Código_de_barras` da tabela `Produto`, `Descrição` da tabela `ProdutoInfo`, `Nome` do fabricante da tabela `Fabricante` e `Código_Interno` da tabela `ProdutoInfo`.
