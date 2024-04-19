@@ -18,10 +18,10 @@ Verificar se é possível cadastrar um novo planeta.
 2- As informações fornecidas devem ser armazenados corretamente na base de dados. "
 
 ### Execução 
-Aprovado ( ),
-Reprovado ( ),
-Reteste Aprovado ( ),
-Reteste Reprovado ( ),
+Aprovado ( )/ 
+Reprovado ( )/
+Reteste Aprovado ( )/
+Reteste Reprovado ( )/
 
 ## Casos (ID) de Teste = 2
 Cadastrar um novo Planeta sem preencher todos os campos da tela. 
