@@ -1,9 +1,97 @@
 # Questão 1
 
-[Cenários de teste .pdf](https://github.com/JURIOS1309/-MANYMINDS/files/15031877/Cenarios.de.teste.pdf)
+## Casos (ID) de Teste = 1
 
+## Pré-condições
+Verificar se é possível cadastrar um novo planeta.
 
+## Passos
+"1- Acesse a tela de ""Cadastro de Planeta"" na aplicação. 
 
+2- Preencher todos os campos obrigatórios:  Nome> Clima> Terreno. 
+
+3- Clique no botão ""Cadastrar"". "
+
+## Resultado Esperado 
+"1- O planeta deve ser cadastrado com sucesso. 
+
+2- As informações fornecidas devem ser armazenados corretamente na base de dados. "
+
+## Execução 
+Aprovado ( )
+Reprovado ( )
+Reteste Aprovado ( )
+Reteste Reprovado ( )
+
+## Casos (ID) de Teste = 2
+## Pré-condições
+## Passos
+## Resultado Esperado 
+## Execução 
+Aprovado ( )
+Reprovado ( )
+Reteste Aprovado ( )
+Reteste Reprovado ( )
+
+## Casos (ID) de Teste = 3
+## Pré-condições
+## Passos
+## Resultado Esperado 
+## Execução 
+Aprovado ( )
+Reprovado ( )
+Reteste Aprovado ( )
+Reteste Reprovado ( )
+
+## Casos (ID) de Teste = 4
+## Pré-condições
+## Passos
+## Resultado Esperado 
+## Execução 
+Aprovado ( )
+Reprovado ( )
+Reteste Aprovado ( )
+Reteste Reprovado ( )
+
+## Casos (ID) de Teste = 5 
+## Pré-condições
+## Passos
+## Resultado Esperado 
+## Execução 
+Aprovado ( )
+Reprovado ( )
+Reteste Aprovado ( )
+Reteste Reprovado ( )
+
+## Casos (ID) de Teste = 6 
+## Pré-condições
+## Passos
+## Resultado Esperado 
+## Execução 
+Aprovado ( )
+Reprovado ( )
+Reteste Aprovado ( )
+Reteste Reprovado ( )
+
+## Casos (ID) de Teste = 7
+## Pré-condições
+## Passos
+## Resultado Esperado 
+## Execução 
+Aprovado ( )
+Reprovado ( )
+Reteste Aprovado ( )
+Reteste Reprovado ( )
+
+## Casos (ID) de Teste = 8
+## Pré-condições
+## Passos
+## Resultado Esperado 
+## Execução 
+Aprovado ( )
+Reprovado ( )
+Reteste Aprovado ( )
+Reteste Reprovado ( )
 
 # Questão 2.
 ##Tema: Banco de dados SQL. 
