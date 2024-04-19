@@ -84,24 +84,6 @@ WHERE
     o.Preferência = 1
 ```
 
-```sql
-SELECT
-    p.Código_de_barras,
-    pi.Descrição,
-    f.Nome AS Nome_do_fabricante,
-    pi.Código_Interno
-FROM
-    Produto p
-INNER JOIN
-    ProdutoInfo pi ON p.ID = pi.IDProduto
-INNER JOIN
-    Fabricante f ON pi.IDFabricante = f.ID
-INNER JOIN
-    Origem o ON pi.IDOrigem = o.ID
-WHERE
-    o.Preferência = 1
-```
-
 Detalhamento da consulta:
 Foi selecionado os campos `Código_de_barras` da tabela `Produto`, `Descrição` da tabela `ProdutoInfo`, `Nome` do fabricante da tabela `Fabricante` e `Código_Interno` da tabela `ProdutoInfo`.
 E realizado uma junção entre essas tabelas,  filtrando apenas as linhas onde a origem tem a maior "preferência" (preferência = 1). Dessa forma pode se garantir que cada código de barras aparecerá apenas uma vez no resultado com as informações da origem de maior preferência disponível. 
