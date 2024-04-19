@@ -2,7 +2,7 @@
 
 ## Casos (ID) de Teste = 1
 
-## Pré-condições
+### Pré-condições
 Verificar se é possível cadastrar um novo planeta.
 
 ## Passos
