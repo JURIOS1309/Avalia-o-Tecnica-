@@ -87,7 +87,7 @@ Verificar se é possível "Limpar" o filtro de busca na tela "Planetas Cadastrad
 3- Clique no botão ""Limpar"". "
 
 ### Resultado Esperado 
-1- O campo de busca deve ser limpo e a lista de planetas deve ser exibida sem filtros cadastrados. 
+O campo de busca deve ser limpo e a lista de planetas deve ser exibida sem filtros cadastrados. 
 
 ### Execução 
 Aprovado ( )/ 
@@ -157,7 +157,7 @@ Verificar se a "Consulta" conta corretamente os filmes Star Wars em que cada pla
 3- Verifique a contagem de filmes Star Wars atribuídos a esse planeta. "
 
 ### Resultado Esperado 
-1- A contagem de filmes Star Wars associados ao planeta deve ser precisa e corresponder ao esperado com base nos dados cadastrados. 
+A contagem de filmes Star Wars associados ao planeta deve ser precisa e corresponder ao esperado com base nos dados cadastrados. 
 
 ### Execução 
 Aprovado ( )/ 
