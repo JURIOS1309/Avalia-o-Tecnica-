@@ -6,16 +6,16 @@
 Verificar se é possível cadastrar um novo planeta.
 
 ### Passos
-"1- Acesse a tela de ""Cadastro de Planeta"" na aplicação. 
+1- Acesse a tela de ""Cadastro de Planeta"" na aplicação. 
 
 2- Preencher todos os campos obrigatórios:  Nome> Clima> Terreno. 
 
-3- Clique no botão ""Cadastrar"". "
+3- Clique no botão ""Cadastrar"".
 
 ### Resultado Esperado 
-"1- O planeta deve ser cadastrado com sucesso. 
+1- O planeta deve ser cadastrado com sucesso. 
 
-2- As informações fornecidas devem ser armazenados corretamente na base de dados. "
+2- As informações fornecidas devem ser armazenados corretamente na base de dados. 
 
 ### Execução 
 Aprovado ( )/ 
@@ -30,18 +30,18 @@ Cadastrar um novo Planeta sem preencher todos os campos da tela.
 Verificar se é possível cadastrar um novo planeta, sem preencher todos os dados solicitados na tela. 
 
 ### Passos
-"1- Acesse a tela de ""Cadastro de Planeta"" na aplicação. 
+1- Acesse a tela de ""Cadastro de Planeta"" na aplicação. 
 
 2- Preencher somente os campos:  Nome> Clima. 
 
 3- Clique no botão ""Cadastrar"". 
-"
+
 
 ### Resultado Esperado
-"1- O planeta não deveá ser cadastrado. 
+1- O planeta não deveá ser cadastrado. 
 
 2- Deverá ser exibido uma mensagem na tela de ""Falta dados no campo obrigatório: Terreno"". 
-"
+
 
 ### Execução 
 Aprovado ( )/ 
@@ -56,16 +56,14 @@ Cancelar a inserção de um Cadastro de Planeta.
 Verificar se é possível cancelar as informações de um cadastro de planeta. 
 
 ### Passos
-"1- Acesse a tela de ""Cadastro de Planeta"" na aplicação. 
+1- Acesse a tela de ""Cadastro de Planeta"" na aplicação. 
 
 2- Preencher todos os campos obrigatórios:  Nome> Clima> Terreno. 
 
-3- Clique no botão ""Cancelar"". "
+3- Clique no botão ""Cancelar"". 
 
 ### Resultado Esperado 
-"1- As informações pré preenchidas na tela de Cadastro deverá ser removida/excluída com sucesso. 
-
-"
+1- As informações pré preenchidas na tela de Cadastro deverá ser removida/excluída com sucesso. 
 
 ### Execução 
 Aprovado ( )/ 
@@ -80,11 +78,11 @@ Limpar Filtro de Busca
 Verificar se é possível "Limpar" o filtro de busca na tela "Planetas Cadastrados"
 
 ### Passos
-"1- Acesse a tela ""Planetas Cadastrados"". 
+1- Acesse a tela ""Planetas Cadastrados"". 
 
 2- Preencha o campo de ""Busca"" com alguma das opções entre os campos ""ID ou Nome"".
 
-3- Clique no botão ""Limpar"". "
+3- Clique no botão ""Limpar"". 
 
 ### Resultado Esperado 
 O campo de busca deve ser limpo e a lista de planetas deve ser exibida sem filtros cadastrados. 
@@ -102,16 +100,16 @@ Consulta de Planetas Cadastrados por "ID"
 Verificar se é possível "Consultar" por "ID" os planetas cadastrados na aplicação de acordo com os Filmes. 
 
 ### Passos
-"1- Acesse a Tela ""Planetas Cadastrados"". 
+1- Acesse a Tela ""Planetas Cadastrados"". 
 
 2- Preencha o campo de ""Busca"" com a informação por ""ID"". 
 
-3- Clique no botão ""Consultar"""
+3- Clique no botão ""Consultar""
 
 ### Resultado Esperado 
-"1- A lista de planetas cadastrados deve ser exibida corretamente com as informações preenchidas nos campos como ""ID"",""Nome"", ""Clima"", ""Terreno"" e Filmes.
+1- A lista de planetas cadastrados deve ser exibida corretamente com as informações preenchidas nos campos como ""ID"",""Nome"", ""Clima"", ""Terreno"" e Filmes.
 
-2- Os filtros de busca devem funcionar conforme esperado. "
+2- Os filtros de busca devem funcionar conforme esperado. 
 
 ### Execução 
 Aprovado ( )/
@@ -126,16 +124,16 @@ Consulta de Planetas Cadastrados por "Nome"
 Verificar se é possível "Consultar" por "Nome" os planetas cadastrados na aplicação de acordo com os Filmes. 
 
 ### Passos
-"1- Acesse a Tela ""Planetas Cadastrados"". 
+1- Acesse a Tela ""Planetas Cadastrados"". 
 
 2- Preencha o campo de ""Busca"" com a informação por ""Nome"". 
 
-3- Clique no botão ""Consultar"""
+3- Clique no botão ""Consultar""
 
 ### Resultado Esperado 
-"1- A lista de planetas cadastrados deve ser exibida corretamente com as informações preenchidas nos campos como ""ID"",""Nome"", ""Clima"", ""Terreno"" e Filmes.
+1- A lista de planetas cadastrados deve ser exibida corretamente com as informações preenchidas nos campos como ""ID"",""Nome"", ""Clima"", ""Terreno"" e Filmes.
 
-2- Os filtros de busca devem funcionar conforme esperado. "
+2- Os filtros de busca devem funcionar conforme esperado. 
 
 ### Execução 
 Aprovado ( )/ 
@@ -150,11 +148,11 @@ Contagem de Filmes Star Wars por Planeta.
 Verificar se a "Consulta" conta corretamente os filmes Star Wars em que cada planeta está presente.
 
 ### Passos
-"1- Acesse a Tela ""Planetas Cadastrados"". 
+1- Acesse a Tela ""Planetas Cadastrados"". 
 
 2- Preencha o campo de ""Busca"" com a informação por ""Nome"". 
 
-3- Verifique a contagem de filmes Star Wars atribuídos a esse planeta. "
+3- Verifique a contagem de filmes Star Wars atribuídos a esse planeta. 
 
 ### Resultado Esperado 
 A contagem de filmes Star Wars associados ao planeta deve ser precisa e corresponder ao esperado com base nos dados cadastrados. 
@@ -172,16 +170,16 @@ Remover linha da tabela de Planetas Cadastrados por "Nome".
 Verificar se é possível "Remover" a linha apresentada na Consulta da tela "Planetas Cadastrados".
 
 ### Passos
-"1- Acesse a Tela ""Planetas Cadastrados"". 
+1- Acesse a Tela ""Planetas Cadastrados"". 
 
 2- Preencha o campo de ""Busca"" com a informação por ""Nome"". 
 
-3- Clique no ""X Remover""da 1º linha da lista exibida na busca. "
+3- Clique no ""X Remover""da 1º linha da lista exibida na busca. 
 
 ### Resultado Esperado 
-"1- A lista de planetas cadastrados deve ser exibida corretamente. 
+1- A lista de planetas cadastrados deve ser exibida corretamente. 
 
-2- A 1º linha não deverá ser mais exibida na tela de Consulta. "
+2- A 1º linha não deverá ser mais exibida na tela de Consulta. 
 
 ### Execução 
 Aprovado ( )/ 
@@ -192,7 +190,7 @@ Reteste Reprovado ( )/
 # Questão 2.
 ##Tema: Banco de dados SQL. 
 
-## RESPOSTA A
+### RESPOSTA A
 
 Para realizar a consulta que retorna os códigos de barras dos produtos cadastrados pela primeira vez no banco nos últimos 10 dias, utilizei a junção das tabelas Produto e ProdutoInfo, e o filtro dos registros com base na data de cadastro.
 
@@ -208,7 +206,7 @@ Detalhamento da consulta:
 - Um DISTINCT para garantir que cada código de barras seja listado apenas uma vez.
 - E na cláusula WHERE, filtrei os registros para incluir apenas aqueles onde a Data_Cadastro na tabela ProdutoInfo é maior ou igual à data atual menos 10 dias (DATEADD(day, -10, GETDATE())).
 
-## RESPOSTA B
+### RESPOSTA B
 
 Para obter os resultados do nomes das origens que tiveram algum produto cadastrado ou atualizado no mês de março de 2020, foi feito uma junção entre as tabelas e condições de filtro na data.
 
@@ -226,7 +224,7 @@ Detalhamento da consulta:
 - Utilizei o `DISTINCT` para garantir que cada origem fosse listada apenas uma vez, mesmo que tenha múltiplos produtos cadastrados ou atualizados em março de 2020.
 
 
-## RESPOSTA C
+### RESPOSTA C
 
 Para corrigir o erro na atualização da origem "DISTRIBUIDORA TESTE" em que todos os produtos do fabricante "JOAO" foram enviados com o nome "MARIA", utilizei uma consulta SQL UPDATE com uma cláusula WHERE para selecionar os registros específicos que precisam ser corrigidos.
 
@@ -253,7 +251,7 @@ Detalhamento da consulta:
 Essa consulta atualiza os registros na tabela `Produtoinfo` onde o `IDFabricante` corresponde ao fabricante com nome "MARIA" para o `IDFabricante` do fabricante com nome "JOAO", apenas para os produtos provenientes da origem "DISTRIBUIDORA TESTE".
 
 
-## RESPOSTA D
+### RESPOSTA D
 
 Para utilizar essa consulta, foi preciso juntar as tabelas `Produto`, `ProdutoInfo`, `Fabricante` e `Origem`, e selecionar os campos desejados, filtrando pela origem de maior preferência para cada código de barras. 
 
