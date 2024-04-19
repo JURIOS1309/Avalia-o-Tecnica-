@@ -18,15 +18,31 @@ Verificar se é possível cadastrar um novo planeta.
 2- As informações fornecidas devem ser armazenados corretamente na base de dados. "
 
 ## Execução 
-Aprovado ( )
-Reprovado ( )
-Reteste Aprovado ( )
-Reteste Reprovado ( )
+Aprovado ( ),
+Reprovado ( ),
+Reteste Aprovado ( ),
+Reteste Reprovado ( ),
 
 ## Casos (ID) de Teste = 2
+Cadastrar um novo Planeta sem preencher todos os campos da tela. 
+
 ## Pré-condições
+Verificar se é possível cadastrar um novo planeta, sem preencher todos os dados solicitados na tela. 
+
 ## Passos
-## Resultado Esperado 
+"1- Acesse a tela de ""Cadastro de Planeta"" na aplicação. 
+
+2- Preencher somente os campos:  Nome> Clima. 
+
+3- Clique no botão ""Cadastrar"". 
+"
+
+## Resultado Esperado
+"1- O planeta não deveá ser cadastrado. 
+
+2- Deverá ser exibido uma mensagem na tela de ""Falta dados no campo obrigatório: Terreno"". 
+"
+
 ## Execução 
 Aprovado ( )
 Reprovado ( )
@@ -34,9 +50,23 @@ Reteste Aprovado ( )
 Reteste Reprovado ( )
 
 ## Casos (ID) de Teste = 3
+Cancelar a inserção de um Cadastro de Planeta. 
+
 ## Pré-condições
+Verificar se é possível cancelar as informações de um cadastro de planeta. 
+
 ## Passos
+"1- Acesse a tela de ""Cadastro de Planeta"" na aplicação. 
+
+2- Preencher todos os campos obrigatórios:  Nome> Clima> Terreno. 
+
+3- Clique no botão ""Cancelar"". "
+
 ## Resultado Esperado 
+"1- As informações pré preenchidas na tela de Cadastro deverá ser removida/excluída com sucesso. 
+
+"
+
 ## Execução 
 Aprovado ( )
 Reprovado ( )
@@ -44,9 +74,21 @@ Reteste Aprovado ( )
 Reteste Reprovado ( )
 
 ## Casos (ID) de Teste = 4
+Limpar Filtro de Busca
+
 ## Pré-condições
+Verificar se é possível "Limpar" o filtro de busca na tela "Planetas Cadastrados"
+
 ## Passos
+"1- Acesse a tela ""Planetas Cadastrados"". 
+
+2- Preencha o campo de ""Busca"" com alguma das opções entre os campos ""ID ou Nome"".
+
+3- Clique no botão ""Limpar"". "
+
 ## Resultado Esperado 
+1- O campo de busca deve ser limpo e a lista de planetas deve ser exibida sem filtros cadastrados. 
+
 ## Execução 
 Aprovado ( )
 Reprovado ( )
@@ -54,9 +96,23 @@ Reteste Aprovado ( )
 Reteste Reprovado ( )
 
 ## Casos (ID) de Teste = 5 
+Consulta de Planetas Cadastrados por "ID"
+
 ## Pré-condições
+Verificar se é possível "Consultar" por "ID" os planetas cadastrados na aplicação de acordo com os Filmes. 
+
 ## Passos
+"1- Acesse a Tela ""Planetas Cadastrados"". 
+
+2- Preencha o campo de ""Busca"" com a informação por ""ID"". 
+
+3- Clique no botão ""Consultar"""
+
 ## Resultado Esperado 
+"1- A lista de planetas cadastrados deve ser exibida corretamente com as informações preenchidas nos campos como ""ID"",""Nome"", ""Clima"", ""Terreno"" e Filmes.
+
+2- Os filtros de busca devem funcionar conforme esperado. "
+
 ## Execução 
 Aprovado ( )
 Reprovado ( )
@@ -64,9 +120,23 @@ Reteste Aprovado ( )
 Reteste Reprovado ( )
 
 ## Casos (ID) de Teste = 6 
+Consulta de Planetas Cadastrados por "Nome"
+
 ## Pré-condições
+Verificar se é possível "Consultar" por "Nome" os planetas cadastrados na aplicação de acordo com os Filmes. 
+
 ## Passos
+"1- Acesse a Tela ""Planetas Cadastrados"". 
+
+2- Preencha o campo de ""Busca"" com a informação por ""Nome"". 
+
+3- Clique no botão ""Consultar"""
+
 ## Resultado Esperado 
+"1- A lista de planetas cadastrados deve ser exibida corretamente com as informações preenchidas nos campos como ""ID"",""Nome"", ""Clima"", ""Terreno"" e Filmes.
+
+2- Os filtros de busca devem funcionar conforme esperado. "
+
 ## Execução 
 Aprovado ( )
 Reprovado ( )
@@ -74,9 +144,21 @@ Reteste Aprovado ( )
 Reteste Reprovado ( )
 
 ## Casos (ID) de Teste = 7
+Contagem de Filmes Star Wars por Planeta.
+
 ## Pré-condições
+Verificar se a "Consulta" conta corretamente os filmes Star Wars em que cada planeta está presente.
+
 ## Passos
+"1- Acesse a Tela ""Planetas Cadastrados"". 
+
+2- Preencha o campo de ""Busca"" com a informação por ""Nome"". 
+
+3- Verifique a contagem de filmes Star Wars atribuídos a esse planeta. "
+
 ## Resultado Esperado 
+1- A contagem de filmes Star Wars associados ao planeta deve ser precisa e corresponder ao esperado com base nos dados cadastrados. 
+
 ## Execução 
 Aprovado ( )
 Reprovado ( )
@@ -84,9 +166,23 @@ Reteste Aprovado ( )
 Reteste Reprovado ( )
 
 ## Casos (ID) de Teste = 8
+Remover linha da tabela de Planetas Cadastrados por "Nome".
+
 ## Pré-condições
+Verificar se é possível "Remover" a linha apresentada na Consulta da tela "Planetas Cadastrados".
+
 ## Passos
+"1- Acesse a Tela ""Planetas Cadastrados"". 
+
+2- Preencha o campo de ""Busca"" com a informação por ""Nome"". 
+
+3- Clique no ""X Remover""da 1º linha da lista exibida na busca. "
+
 ## Resultado Esperado 
+"1- A lista de planetas cadastrados deve ser exibida corretamente. 
+
+2- A 1º linha não deverá ser mais exibida na tela de Consulta. "
+
 ## Execução 
 Aprovado ( )
 Reprovado ( )
