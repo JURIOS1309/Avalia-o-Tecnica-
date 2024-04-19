@@ -5,19 +5,19 @@
 ### Pré-condições
 Verificar se é possível cadastrar um novo planeta.
 
-## Passos
+### Passos
 "1- Acesse a tela de ""Cadastro de Planeta"" na aplicação. 
 
 2- Preencher todos os campos obrigatórios:  Nome> Clima> Terreno. 
 
 3- Clique no botão ""Cadastrar"". "
 
-## Resultado Esperado 
+### Resultado Esperado 
 "1- O planeta deve ser cadastrado com sucesso. 
 
 2- As informações fornecidas devem ser armazenados corretamente na base de dados. "
 
-## Execução 
+### Execução 
 Aprovado ( ),
 Reprovado ( ),
 Reteste Aprovado ( ),
