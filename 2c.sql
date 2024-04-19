@@ -4,13 +4,13 @@ SET IDFabricante = (
     FROM Fabricante
     WHERE Nome = 'JOAO'
 )
-WHERE IDOrigem = (
-    SELECT Id
-    FROM Origem
-    WHERE Nome = 'DISTRIBUIDORA TESTE'
-)
-AND IDFabricante = (
+WHERE IDFabricante = (
     SELECT ID
     FROM Fabricante
     WHERE Nome = 'MARIA'
+)
+AND IDOrigem = (
+    SELECT ID
+    FROM Origem
+    WHERE Nome = 'DISTRIBUIDORA TESTE'
 );
