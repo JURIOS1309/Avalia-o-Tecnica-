@@ -1,3 +1,10 @@
+# Questão 1
+
+[Cenários de teste .pdf](https://github.com/JURIOS1309/-MANYMINDS/files/15031877/Cenarios.de.teste.pdf)
+
+
+
+
 # Questão 2.
 ##Tema: Banco de dados SQL. 
 
